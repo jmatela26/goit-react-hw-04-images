@@ -8,6 +8,7 @@ export const Modal = ({ closeModal, isOpen, imageUrl }) => {
     }
   };
 
+  // Added use effect
   useEffect(() => {
     const handleKeyDown = e => {
       if (e.key === 'Escape') {
